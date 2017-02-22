@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-learning
+  host: iot-learning
+  disk_quota: 1024M
+  services:
+  - iot-learning-cloudantNoSQLDB
+  - iot-learning-iotf-service
